@@ -26,7 +26,7 @@ REQUIRED_WINS = int(configParser.get('Required', 'required_wins'))  # -1 to play
 VISUALIZE = False
 
 # FFXIV Game Window Info
-APP_NAME = 'FINAL FANTASY XIV'
+APP_NAME = '最终幻想XIV'
 
 # Global variables
 PROCESSOR = triadbuddy.AutoTriadBuddy(vision.THEME_DARK, 0.5)  # Class instance to process frames
@@ -75,7 +75,7 @@ def main():
 
             # Valid Window - Process
             if not valid_window(win_hwnd):
-                print("'FINAL FANTASY XIV' maximized or not focused, click the game window to focus")
+                print("'最终幻想XIV' maximized or not focused, click the game window to focus")
                 time.sleep(0.25)
                 continue
 
